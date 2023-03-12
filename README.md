@@ -1,14 +1,13 @@
-# Docker Compose for Node.js and PostgreSQL
-
-For the sake of making it more real-world, setup has also a build step (here with **TypeScript**).
-
-## [Read more](https://michalzalecki.com/docker-compose-for-nodejs-and-postresql/)
-
-I've put together an article which explains most of the code from this repo: [Docker Compose for NodeJS and PostreSQL](https://michalzalecki.com/docker-compose-for-nodejs-and-postresql/)
+# Prison Term Calculator
 
 ## Run
 
     docker-compose up --build
+
+## TODO:
+- [] - Implement Service  
+- [] - Add Linter
+- [] - Add Documentation
 
 ## Test
 
