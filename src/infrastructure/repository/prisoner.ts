@@ -1,7 +1,7 @@
 import { Repository } from 'mikro-orm';
-import { Contact } from '../infrastructure/models/contact';
-import { Law } from '../infrastructure/models/law';
-import { BasePrisoner, Prisoner } from '../infrastructure/models/prisoner';
+import { Contact } from '../models/contact';
+import { Law } from '../models/law';
+import { BasePrisoner, Prisoner } from '../models/prisoner';
 
 type PrisonerRepository = Repository<Prisoner>;
 

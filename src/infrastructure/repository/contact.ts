@@ -1,5 +1,5 @@
 import { Repository } from 'mikro-orm';
-import { BaseContact, Contact } from '../infrastructure/models/contact';
+import { BaseContact, Contact } from '../models/contact';
 
 
 type ContactRepository = Repository<Contact>;

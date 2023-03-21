@@ -1,5 +1,5 @@
 import { Repository } from 'mikro-orm';
-import { BaseLaw, Law } from '../infrastructure/models/law';
+import { BaseLaw, Law } from '../models/law';
 
 type LawRepository = Repository<Law>;
 
